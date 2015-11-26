@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<title>FormChallenge</title>
+		
+</head>
+<body>
+<h1>Form Submission:</h1>
+<form action="http://174.129.248.23/brainstation/files/submittingforms.php" method="post">
+	<div>
+		<label for="user">User Name:</label>
+		<input type="text" id="user" name="user">
+	</div>
+	<div>
+		<label for="bio">Bio:</label>
+		<textarea id="bio" name="bio"></textarea>
+
+	</div>
+	<div>
+		<select name="city">
+			<option>Toronto</option>
+			<option>Vancouver</option>
+			<option>Charlottetown</option>
+		</select>
+	</div>
+	<div>
+		<select name="gender">
+			<option>Male</option>
+			<option>Female</option>
+		</select>
+	</div>
+	<div>
+		<label for="agree">Agree?:</label>
+		<input type="checkbox" name="agree" id="agree">
+	</div>
+	<button>submit</button>
+
+</form>
+</body>
+</html>
